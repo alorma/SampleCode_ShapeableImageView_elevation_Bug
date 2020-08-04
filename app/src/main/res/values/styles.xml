@@ -1,0 +1,55 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+    </style>
+
+    <style name="ShapeAppearance.Demo" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Demo.Rounded">
+        <item name="cornerFamily">rounded</item>
+    </style>
+
+    <style name="ShapeAppearance.Demo.Cut">
+        <item name="cornerFamily">cut</item>
+    </style>
+
+    <style name="Widget.Demo" parent="Widget.MaterialComponents.ShapeableImageView">
+        <item name="android:elevation">6dp</item>
+    </style>
+
+    <style name="Widget.Demo.Primary">
+        <item name="android:background">?colorPrimary</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Demo.Rounded</item>
+    </style>
+
+    <style name="Widget.Demo.Secondary">
+        <item name="android:background">?colorSecondary</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Demo.Cut</item>
+    </style>
+
+    <style name="Widget.Demo.Surface">
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">?colorOnSurface</item>
+        <item name="android:background">?colorSurface</item>
+    </style>
+
+    <style name="Widget.Demo.Surface.Rounded">
+        <item name="shapeAppearance">@style/ShapeAppearance.Demo.Rounded</item>
+    </style>
+
+    <style name="Widget.Demo.Surface.Cut">
+        <item name="shapeAppearance">@style/ShapeAppearance.Demo.Cut</item>
+    </style>
+
+    <style name="Widget.Slider" parent="Widget.MaterialComponents.Slider">
+        <item name="haloColor">?colorSecondary</item>
+        <item name="thumbColor">?colorSecondary</item>
+        <item name="trackColorInactive">?colorOnSurface</item>
+        <item name="tickColorInactive">?colorSurface</item>
+    </style>
+
+</resources>
